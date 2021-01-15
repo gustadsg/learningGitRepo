@@ -1,0 +1,10 @@
+git clone <source> <nome da pasta> -> clona repositorio para a pasta em que vc está
+git add <nome do arquivo> -> adiciona arquivo para o proximo commit
+git commit [-a substisui o git add]  [-m "mensagem para o commit"]
+git branch [-d deletar branch] [-m mudar nome da branch] [-M mudar nome e transformar na principal] <nome da branch> -> criar uma nova branch
+git checkout [-b substitui o git banch] <nome da branch> -> mudar para a branch desejada
+git push [--set-upstream origin <nome da branch> usado no primeiro push com a branch atual] -> enviar as mudanças para o repositório online
+git pull -> puxar as mudanças do repositorio online para o repo local
+git status -> ver os arquivos staged e não adicionados para o prox commit
+git log -> ver os ultimos commits
+git diff -> ver a diferença de um commit pro outro
